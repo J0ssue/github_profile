@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>AJAX</title>
+	<script src="ajax.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.3.0/milligram.css">
+	<link rel="stylesheet" type="text/css" href="app.css">
+</head>
+<body>
+
+<!-- 
+	Your task
+
+	* Display avatar, username, real name, location, bio, and number of followers
+
+	* Get the usernames and avatars of their followers
+
+	* Add a 'loading' indicator
+
+	* Add an input box that takes inn other usernames to display
+ -->
+	<div class="container">
+
+		<div id="profile">
+			<h1 id="name"></h1>
+			<img alt="me" id="img">
+			<h2>GitHub Name: <span id="login"></span></h2>
+			<p id="bio"></p>	
+			<h4>Number of Followers: <span id="n_followers"></span></h4>
+		</div>
+
+		<div id="followers" class="container">
+			<h1>Followers</h1>
+			<div class="row">
+			</div>
+		</div>
+
+	</div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+{
+	Synchronous vs. Asynchronous
+}
+
+{
+	AJAX & HTTPRequest
+
+	HTTP Methods
+
+	* GET - pulls
+	* POST - creates
+	* DELETE - remove	s
+
+	HTTP Status Codes
+
+	* 100-level - hold on
+	* 200-level - here you go
+	* 300-level - go away
+	* 400-level - you messed up
+	* 500-level - server's messed up
+
+}
+
+{
+	Promise states
+
+	* Pending - incomplete
+	* Fulfilled - completed
+	* Rejected - failed
+	
+}
+
+{
+
+	2 things to know about JSON
+
+	* keys - a tring wrapped in ""
+	* values - can be a string, number, boolean expression, array, or object
+
+}
